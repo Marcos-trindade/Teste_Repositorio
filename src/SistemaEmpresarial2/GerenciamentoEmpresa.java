@@ -13,8 +13,6 @@ public class GerenciamentoEmpresa {
 	//Funcionario funcionario = new Funcionario ("paulo Arruda ", "Empacotamento", 1500f, 1999/08/20, "empacotador");
 	
 	
-	
-	
 	System.out.println(empresa);
 	
 	}	
