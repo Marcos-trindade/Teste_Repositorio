@@ -7,14 +7,14 @@ public class Funcionario {
     public String nomeFunc;
     public String departamento;
     public float salario;
-    public Date admissao;
+    public String datAdmissao;
     public String cargo;
 
-    public Funcionario (String nomeFunc, String departamento, float salario, Date admissao, String cargo){
+    public Funcionario (String nomeFunc, String departamento, float salario, String datAdmissao, String cargo){
         this.nomeFunc = nomeFunc;
         this.departamento = departamento;
         this.salario = salario;
-        this.admissao = admissao;
+        this.datAdmissao = datAdmissao;
         this.cargo = cargo;
         
     }
@@ -43,12 +43,12 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    public Date getAdmissao() {
-        return admissao;
+    public String getDatAdmissao() {
+        return datAdmissao;
     }
 
-    public void setAdmissao(Date admissao) {
-        this.admissao = admissao;
+    public void setDatAdmissao(String datAdmissao) {
+        this.datAdmissao = datAdmissao;
     }
 
     public String getCargo() {
@@ -61,9 +61,9 @@ public class Funcionario {
     
     @Override
 	public String toString() {
-		return "Funcionário [Nome do Funcionário:" + nomeFunc + "\nDepartamento:" + departamento +
-                        "\nSalário:" + salario + "\nData de admissão:" + admissao +
-                        "\nCargo:" + cargo + "]";
+		return "Nome:" + nomeFunc + "\nDepartamento:" + departamento +
+                        "\nSalário:" + salario + "\nData de admissão:" + datAdmissao +
+                        "\nCargo:" + cargo + "\n\n";
 	}
 
 

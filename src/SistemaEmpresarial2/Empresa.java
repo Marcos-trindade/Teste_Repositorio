@@ -1,13 +1,12 @@
 
 package SistemaEmpresarial2;
-
 import java.util.ArrayList;
 
 
 public class Empresa {
     public String nomeEmpresa;
     public String cnpj;
-    private ArrayList <Funcionario> funcionario = new ArrayList <Funcionario>();
+    public ArrayList <Funcionario> funcionario = new ArrayList <Funcionario>();
 
     //abaixo método construtor
     public Empresa(String nomeEmpresa, String cnpj){
