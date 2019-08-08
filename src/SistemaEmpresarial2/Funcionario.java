@@ -1,6 +1,5 @@
 package SistemaEmpresarial2;
 
-import java.util.Date;
 
 public class Funcionario {
 
