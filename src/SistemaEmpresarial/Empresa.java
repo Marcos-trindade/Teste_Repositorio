@@ -3,22 +3,24 @@ package SistemaEmpresarial;
 
 
 public class Empresa {
-    public String NomeEmpresa;
-    public int cnpj;
+    public String nomeEmpresa;
+    public String cnpj;
+    
+    
 
     public String getNomeEmpresa() {
-        return NomeEmpresa;
+        return nomeEmpresa;
     }
 
     public void setNomeEmpresa(String NomeEmpresa) {
-        this.NomeEmpresa = NomeEmpresa;
+        this.nomeEmpresa = nomeEmpresa;
     }
 
-    public int getCnpj() {
+    public String getCnpj() {
         return cnpj;
     }
 
-    public void setCnpj(int cnpj) {
+    public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
 
